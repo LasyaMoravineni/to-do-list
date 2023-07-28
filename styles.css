@@ -1,0 +1,126 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(202, 246, 231);
+    margin: 0;
+    padding: 3rem 15%;
+  }
+  
+  .container {
+    padding: 40px 40px 70px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .todo-icon{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #task-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #task-input{
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: #f4f2f2;
+
+  }
+  #addbtn {
+    padding: 14px;
+    background-color: #88dd8b;
+    color: #fff;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  #addbtn:hover{
+    background-color: rgb(83, 202, 83);
+    transition: 0.3s;
+  }
+  
+ 
+ 
+  
+ 
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom: 1px solid rgb(215, 211, 211);
+  padding: 7px;
+
+}
+
+
+ 
+  
+ #del{
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 5px;
+    font-size: 13px;
+    margin: 2px;
+  }
+
+#edit{
+  background-color: rgb(146, 241, 210);
+  color: #fff;
+    border: none;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin: 2px;
+    max-height: 20px;
+    min-width: 40px;
+}
+
+.btns{
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.text .content{
+  flex: 1 1 0%;
+}
+
+.text{
+  border: none;
+  font-size: 16px;
+  display: flex;
+  max-width: 100px;
+  resize: horizontal;
+}
+.text:focus{
+  outline: none;
+}
+
+
+  
