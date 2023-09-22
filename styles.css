@@ -12,6 +12,8 @@ body {
     border-radius: 7px;
     padding: 20px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   .heading{
@@ -45,6 +47,11 @@ body {
     background-color: #f4f2f2;
 
   }
+
+  #task-input:hover{
+    background-color: #edecec;
+    transition: 0.3s;
+  }
   #addbtn {
     padding: 14px;
     background-color: #88dd8b;
@@ -67,8 +74,17 @@ body {
   justify-content: space-between;
   margin: 20px;
   border-bottom: 1px solid rgb(215, 211, 211);
-  padding: 7px;
+  padding: 9px;
 
+}
+
+.list:hover{
+  background-color: #edecec;
+  transition: 0.3s;
+}
+
+#itemname{
+  background-color: transparent;
 }
 
 
@@ -115,7 +131,7 @@ body {
   border: none;
   font-size: 16px;
   display: flex;
-  max-width: 100px;
+  max-width: 130px;
   resize: horizontal;
 }
 .text:focus{
@@ -123,4 +139,13 @@ body {
 }
 
 
+
+#instruction{
+  margin-bottom: 3px;
+}
   
+
+#instructions{
+  font-size: 13px;
+}
+
